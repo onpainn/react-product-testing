@@ -1,0 +1,28 @@
+{
+  "productTypes": [
+    {
+      "packsNumber": 75,
+      "packageType": "компрессия",
+      "isArchived": false,
+      "description": "",
+      "createdAt": "2025-10-07T21:06:09.135Z",
+      "id": 5
+    },
+    {
+      "packsNumber": 20,
+      "packageType": "компрессия",
+      "isArchived": true,
+      "description": "Описание продукции в несколько строчек",
+      "createdAt": "2025-10-07T22:06:43.737Z",
+      "id": 6
+    },
+    {
+      "packsNumber": 10,
+      "packageType": "некомпрессия",
+      "isArchived": false,
+      "description": "Описание продукции",
+      "createdAt": "2025-10-07T22:17:34.677Z",
+      "id": 7
+    }
+  ]
+}
