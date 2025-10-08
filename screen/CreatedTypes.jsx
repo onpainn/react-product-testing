@@ -49,12 +49,12 @@ export function CreatedTypes() {
   };
   return (
     <main className="flex justify-center items-center">
-      <section className="w-xl mt-20">
+      <section className="w-[700px] mt-20">
         <div className="flex justify-between mb-6">
           <h1 className="font-medium text-2xl">Список выпускаемой продукции</h1>
         </div>
         <form onSubmit={handleSubmit}>
-          <div className="flex justify-between items-center mb-2">
+          <div className="flex justify-between items-center mb-[10px]">
             <p>
               Кол-во пачек <span className="text-red-600">*</span>
             </p>
@@ -64,12 +64,12 @@ export function CreatedTypes() {
               min={1}
               value={formData.packsNumber}
               onChange={handleChange}
-              className="w-96 border border-neutral-200 focus:shadow-md transition-shadow rounded-sm px-3 py-1 text-sm outline-0"
+              className="w-[500px] border border-neutral-200 focus:shadow-md transition-shadow rounded-sm px-3 py-1 text-sm outline-0"
               required
             />
           </div>
 
-          <div className="flex justify-between items-center mb-2">
+          <div className="flex justify-between items-center mb-[10px]">
             <p>
               Тип упаковки <span className="text-red-600">*</span>
             </p>
@@ -77,14 +77,14 @@ export function CreatedTypes() {
               name="packageType"
               value={formData.packageType}
               onChange={handleChange}
-              className="w-96 border border-neutral-200 focus:shadow-md transition-shadow rounded-sm px-3 py-1 text-sm outline-0 cursor-pointer"
+              className="w-[500px] border border-neutral-200 focus:shadow-md transition-shadow rounded-sm px-3 py-1 text-sm outline-0 cursor-pointer"
             >
               <option value="компрессия">компрессия</option>
               <option value="некомпрессия">не компрессия</option>
             </select>
           </div>
 
-          <div className="flex gap-23 items-center mb-2">
+          <div className="flex gap-25 items-center mb-[10px]">
             <p>Архивировано</p>
             <input
               type="checkbox"
@@ -95,23 +95,23 @@ export function CreatedTypes() {
             />
           </div>
 
-          <div className="flex justify-between items-center mb-2">
+          <div className="flex justify-between items-center ">
             <p>Описание</p>
             <textarea
               name="description"
               value={formData.description}
               onChange={handleChange}
-              className="resize-none w-96 border border-neutral-200 focus:shadow-md transition-shadow rounded-sm px-3 py-1 text-sm outline-0"
+              className="resize-none w-[500px] border border-neutral-200 focus:shadow-md transition-shadow rounded-sm px-3 py-1 text-sm outline-0"
             />
           </div>
 
           <div className="mt-10 flex justify-center gap-5">
-            <Link to="/" className="px-6 py-2 bg-black text-white rounded-md">
+            <Link to="/" className="button cancel">
               Отмена
             </Link>
             <button
               type="submit"
-              className="px-6 py-2 bg-amber-200 border rounded-md cursor-pointer"
+              className="button addCreate"
             >
               Создать
             </button>

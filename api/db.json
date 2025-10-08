@@ -1,8 +1,8 @@
 {
   "productTypes": [
     {
-      "packsNumber": 75,
-      "packageType": "компрессия",
+      "packsNumber": 80,
+      "packageType": "некомпрессия",
       "isArchived": false,
       "description": "",
       "createdAt": "2025-10-07T21:06:09.135Z",
@@ -18,7 +18,7 @@
     },
     {
       "packsNumber": 10,
-      "packageType": "некомпрессия",
+      "packageType": "компрессия",
       "isArchived": false,
       "description": "Описание продукции",
       "createdAt": "2025-10-07T22:17:34.677Z",

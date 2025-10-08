@@ -1,11 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
 *{
-    font-family: "Jost", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
 }
 td{
+    font-size: 14px;
     border: 1px solid #e2e2e2;
-    text-align: center;
     padding: 5px;
+}
+h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+p{
+    font-size: 16px;
+}
+body{
+    background: #F5F5F5;
+}
+table{
+    background: #fff;
+}
+
+.button{
+    padding:13px 24px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+.addCreate{
+    background-color: #F7EE55;
+}
+.del{
+    background-color: #DA1515;
+    color: #fff;
+}
+.cancel{
+    background-color: #000;
+    color: #fff;
 }

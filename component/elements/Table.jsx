@@ -49,7 +49,7 @@ export function Table() {
     <>
       <table className="w-full mt-5">
         <thead>
-          <tr className="">
+          <tr className="text-gray-500">
             <td>№</td>
             <td>Кол-во пачек</td>
             <td>Тип упаковки</td>
@@ -77,7 +77,7 @@ export function Table() {
                     <div className="peer flex justify-center items-center p-2 hover:text-blue-500 hover:bg-blue-100 transition-colors rounded-sm cursor-pointer">
                       <Info size={20} strokeWidth={1.5} />
                     </div>
-                    <div className="absolute bottom-full mb-2 w-40 -translate-x-1/2 left-1/2 bg-white text-gray-700 text-sm border border-gray-200 rounded-md p-2 shadow-md opacity-0 peer-hover:opacity-100 transition-opacity z-10 pointer-events-none">
+                    <div className="absolute bottom-full mb-2 w-40 -translate-x-1/2 left-1/2 bg-white text-gray-700 text-sm border text-center border-gray-200 rounded-md p-2 shadow-md opacity-0 peer-hover:opacity-100 transition-opacity z-10 pointer-events-none">
                       {product.description
                         ? product.description
                         : "Нет описания"}
